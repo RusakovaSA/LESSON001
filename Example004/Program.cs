@@ -1,3 +1,6 @@
 ﻿// Частное двух чисел
 
-Console.WriteLine("Hello, World!");
+double numberA = 30;
+double numberB = 18;
+double result = numberA / numberB;
+Console.WriteLine(result);
