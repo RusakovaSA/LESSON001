@@ -1,6 +1,8 @@
 ﻿// Сложение двух чисел
 
-int numberA = 7;
-int numberB = 18;
+int numberA = new Random().Next(1,10); // от 1 до 9
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1,10); // от 1 до 9
+Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
