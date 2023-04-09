@@ -5,7 +5,7 @@
 // 7 -> нет
 
 
-int numberA = 4;
+int numberA = 7;
 
 if (numberA % 2 == 0)
 {
@@ -13,6 +13,6 @@ if (numberA % 2 == 0)
 }
 else 
 {
-    Console.Write("Ваше число является нечечетным");
+    Console.Write("Ваше число является нечечетным.");
 }
 
